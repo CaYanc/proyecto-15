@@ -1,0 +1,48 @@
+
+:root{
+    --bs-naranja:#FFA410;
+
+}
+
+
+
+p{
+    color: #fff;
+}
+
+
+/* section 3 iconos */
+.div-barra{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    a{
+        text-decoration: none;
+    }
+    
+}
+
+
+a i{
+    color: #000;
+    font-size: 25px;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    
+}
+
+a b{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    
+    
+}
+
+@media (max-width: 992px){
+    .body{
+        background-color: #000;
+    }
+}
+
